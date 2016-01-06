@@ -2,5 +2,8 @@ import os
 
 def run(**args):
     print "[*] In environment module."
-    return str(os.environ)
+    env = str(os.environ)
+    print "env: %s" % env
+    #return str(os.environ)
+    return "environment done"
   
